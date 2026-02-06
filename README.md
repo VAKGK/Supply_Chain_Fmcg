@@ -1,31 +1,67 @@
-📊 𝐒𝐮𝐩𝐩𝐥𝐲 𝐂𝐡𝐚𝐢𝐧 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬 𝐏𝐨𝐰𝐞𝐫 𝐁𝐈 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 📊
+# 📊 Supply Chain Analysis Power BI Project
 
-𝐒𝐡𝐨𝐫𝐭 𝐈𝐧𝐟𝐨 𝐀𝐛𝐨𝐮𝐭 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 :
-This time dataset provided by Atliq Mart(Imaginary Company) is from FMCG company’s supply chain team, in which we have to track the five major key metrics.
+### **Optimizing Logistics for Atliq Mart**
 
-𝐊𝐞𝐲 𝐌𝐞𝐭𝐫𝐢𝐜𝐬 𝐓𝐫𝐚𝐜𝐤𝐞𝐝:
-➜ OT % - On time delivery percentage
-➜ IF % - In Full delivery percentage
-➜ OTIF % - On time and In Full delivery percentage
-➜ LIFR - Line Fill Rate
-➜ VOFR - Volume Fill Rate
+[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)](https://powerbi.microsoft.com/)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![PowerPoint](https://img.shields.io/badge/PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)](https://www.microsoft.com/en-us/microsoft-365/powerpoint)
+[![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)]()
 
-(I have explained the problem statement in the video)
+---
 
-𝐊𝐧𝐨𝐰𝐥𝐞𝐝𝐠𝐞 𝐠𝐚𝐢𝐧𝐞𝐝 𝐟𝐫𝐨𝐦 𝐭𝐡𝐢𝐬 𝐩𝐫𝐨𝐣𝐞𝐜𝐭 :
+## 📖 Overview
 
-➜Deepened understanding of supply chain operations and terminology
-➜Applied advanced DAX functions (e.g., finding date gaps, differences between COUNT, COUNTA, COUNTROWS, DISTINCTCOUNT)
-➜Used trend chart along with key metrics, just show the trend along with the metrics itself
-➜Explored new visualizations, page navigation, and Switch buttons
+**Efficiency is the backbone of the FMCG industry.** This project analyzes the supply chain performance of **Atliq Mart** (a fictional FMCG company). The goal was to solve a service level issue by tracking essential delivery metrics and identifying areas where the supply chain was failing to meet customer demands.
 
-𝐈𝐧 𝐭𝐡𝐢𝐬 𝐩𝐫𝐨𝐣𝐞𝐜𝐭, 𝐈 𝐡𝐚𝐯𝐞 𝐮𝐬𝐞𝐝 𝐭𝐨𝐨𝐥𝐬 𝐥𝐢𝐤𝐞:
+By integrating database querying with advanced visualization, this dashboard provides the supply chain team with a clear picture of their On-Time and In-Full delivery performance.
 
-➜𝐌𝐲𝐒𝐐𝐋 - to query the database
-➜𝐏𝐨𝐰𝐞𝐫 𝐁𝐈 - to visualize the data
-➜ 𝐏𝐨𝐰𝐞𝐫𝐏𝐨𝐢𝐧𝐭 - to present the Insights
+> *"Tracking the journey from warehouse to customer with precision."*
 
+---
 
-𝐒𝐩𝐞𝐜𝐢𝐚𝐥 𝐓𝐡𝐚𝐧𝐤𝐬:
+## 🎯 Key Metrics Tracked
 
-Hemanand Vadivel sir and Dhaval Patel sir, your mentorship has been a game-changer for me. I'm forever grateful for your time, wisdom, and encouragement. Thank you for helping me achieve my goals!
+To evaluate the service levels effectively, I focused on five major Key Performance Indicators (KPIs):
+
+* **🕒 OT % (On Time Delivery):** Percentage of orders delivered by the promised date.
+* **📦 IF % (In Full Delivery):** Percentage of orders delivered with the complete quantity requested.
+* **✅ OTIF % (On Time & In Full):** The gold standard metric—orders that were both on time and fully complete.
+* **📉 LIFR (Line Fill Rate):** Measurement of how many distinct line items were fulfilled.
+* **📊 VOFR (Volume Fill Rate):** Measurement of the total volume of goods fulfilled against the demand.
+
+---
+
+## 🛠️ Tools Used
+
+* **🐬 MySQL:** Used for querying the database and extracting relevant datasets.
+* **📊 Power BI:** The primary tool for data modeling, DAX calculations, and visualization.
+* **📝 PowerPoint:** Used to synthesize findings and present actionable insights to stakeholders.
+
+---
+
+## 🧠 Knowledge & Skills Applied
+
+This project pushed my boundaries in both domain knowledge and technical implementation:
+
+* **🚚 Supply Chain Domain:** Deepened understanding of logistics terminology and operational flows.
+* **🧮 Advanced DAX:** * Mastered logic for finding date gaps.
+    * Understood nuances between `COUNT`, `COUNTA`, `COUNTROWS`, and `DISTINCTCOUNT`.
+* **📈 Trend Analysis:** Implemented trend charts alongside single-value metrics to show historical context immediately.
+* **🎨 UX/UI Design:** Explored page navigation techniques and **Switch Buttons** for a cleaner, interactive user experience.
+
+---
+
+## ⚙️ The Workflow
+
+The data journey involves extracting raw data from the SQL database and transforming it into visual insights.
+
+```mermaid
+graph TD;
+    A[🗄️ MySQL Database\nAtliq Mart Data] -->|Query & Extract| B{⚙️ Power BI\nData Transformation};
+    B -->|DAX Measures| C[🧮 Calculation Engine\n(OT, IF, OTIF, LIFR)];
+    C -->|Visualization| D[📈 Interactive Dashboard];
+    D -->|Analysis| E[💡 Insights Presentation\nPowerPoint];
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style E fill:#bfb,stroke:#333,stroke-width:2px
