@@ -57,10 +57,13 @@ The data journey involves extracting raw data from the SQL database and transfor
 
 ```mermaid
 graph TD;
-    A["🗄️ MySQL Database\nAtliq Mart Data"] -->|Query & Extract| B{"⚙️ Power BI\nData Transformation"};
-    B -->|DAX Measures| C["🧮 Calculation Engine\n(OT, IF, OTIF, LIFR)"];
+    A["🗄️ MySQL Database\nAtliq Mart Data"] -->|Query & Extract| B{"⚙️ Power BI 
+      Data Transformation"};
+    B -->|DAX Measures| C["🧮 Calculation Engine 
+    (OT, IF, OTIF, LIFR)"];
     C -->|Visualization| D["📈 Interactive Dashboard"];
-    D -->|Analysis| E["💡 Insights Presentation\nPowerPoint"];
+    D -->|Analysis| E["💡 Insights Presentation 
+     PowerPoint"];
 
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style C fill:#bbf,stroke:#333,stroke-width:2px
